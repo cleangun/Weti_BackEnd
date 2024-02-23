@@ -31,4 +31,4 @@ class GroupModel{
     }
 }
 
-exports.module = GroupModel;
+module.exports = GroupModel;

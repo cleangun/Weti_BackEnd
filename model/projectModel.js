@@ -1,8 +1,8 @@
 class ProjectModel {
-    constructor(id, owner, projectName, member){
+    constructor(id, owner, defaultGroup, projectName, member){
         this.id = id;
         this.owner = owner;
-        this.group = [];
+        this.group = [defaultGroup];
         this.projectName = projectName;
         this.members = [member];
     }
